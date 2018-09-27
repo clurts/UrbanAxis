@@ -55,6 +55,10 @@
 .messages footer {
     background-color: #431C60;
     padding: 0.5em 1em;
+    box-sizing: border-box; 
+    position: fixed;
+    bottom:0;
+    width: 100%;
 }
 .messages form {
     display: flex;
